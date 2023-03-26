@@ -5,7 +5,7 @@ function validateForm() {
 	var destination = document.getElementById("destination").value;
 	var date = document.getElementById("date").value;
 
-	// Check if form elements are not empty
+	
 	if (name == "" || email == "" || destination == "" || date == "") {
 		alert("Please fill out all fields");
 		return false;
@@ -17,6 +17,6 @@ function validateForm() {
 	confirmationMessage.innerHTML = message;
 	confirmationMessage.style.display = "block";
 
-	// Prevent form submission
+	
 	return false;
 }
